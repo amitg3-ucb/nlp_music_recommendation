@@ -3,8 +3,34 @@ Given lyric data, audio features, and potential additional metadata, we are look
 
 - Topic
 - Genre
+- Song Language
 
 Genre in particular is largely classified with audio based features, and we theorize that the introduction of lyric based features could improve model performance for out of sample genre classification. Upon detecting topic and genre alongside other provided audio and metadata features provided by Spotify + Genuis API, we believe we can use similarity/distance based modeling approaches such as KNN and KMeans to deliver logical, streamlined recommendations for similar songs.
+
+## Key Research Questions
+Preprocessing Questions
+- Do specific preprocessing steps optimize future model performance more than others
+
+Model Dev Questions
+- What model types (classical ML vs DL) generalize best out of sample for detecting different characteristics
+- What DL architectures generalize best
+- Performance of Audio vs Language vs Both for DL architecures on different characteristic detection tasks
+- How does embedding size impact model performance on different tasks
+- Impact of Pre-Trained vs Custom Embeddings on different tasks
+- How to deal with long text given variable + lengthy song length
+- How do we measure performance for problems were true output is density distribution? What about for multi hard-class assignment?
+- Problem setup for the above
+- Treatment for class imbalances (over/under sampling, dynamic point weighting by class proportion)
+- Impact of combining multiple models via a stacked framework
+
+Post Model Dev Questions:
+- What words are most important for determining certain characteristics
+- Interesting Structure Identified (Clustering Artists/Songs/Etc)
+- Schemes for making recommendation
+
+
+
+
 
 ## Datasets + Descriptions
 [Prediction of Music Genre Dataset](Data\music_genre_audio_features_1.csv) Key contents:
