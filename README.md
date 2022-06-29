@@ -16,12 +16,12 @@ Model Dev Questions
 - What DL architectures generalize best
 - Performance of Audio vs Language vs Both for DL architecures on different characteristic detection tasks
 - How does embedding size impact model performance on different tasks
-- Impact of Pre-Trained vs Custom Embeddings on different tasks
+- Impact of Pre-Trained (Trainable vs not Trainable) vs Custom Embeddings on different tasks
 - How to deal with long text given variable + lengthy song length
-- How do we measure performance for problems were true output is density distribution? What about for multi hard-class assignment?
-- Problem setup for the above
+- How do we measure performance for problems were true output is density distribution? What about for multi hard-class assignment (multilabel classification)?
+- Problem setup for the above (binary relevance method, ...)
 - Treatment for class imbalances (over/under sampling, dynamic point weighting by class proportion)
-- Impact of combining multiple models via a stacked framework
+- Impact of combining multiple models via a stacked framework for specific tasks
 
 Post Model Dev Questions:
 - What words are most important for determining certain characteristics
