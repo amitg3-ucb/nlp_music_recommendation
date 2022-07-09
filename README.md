@@ -9,28 +9,23 @@ Genre in particular is largely classified with audio based features, and we theo
 
 ## Key Research Questions
 Preprocessing Questions
-- Do specific preprocessing steps optimize future model performance more than others
+- Do specific preprocessing steps optimize future model performance more than others (ignore)
 
 Model Dev Questions
-- What model types (classical ML vs DL) generalize best out of sample for detecting different characteristics
-- What DL architectures generalize best
-- Performance of Audio vs Language vs Both for DL architecures on different characteristic detection tasks
-- How does embedding size impact model performance on different tasks
-- Impact of Pre-Trained (Trainable vs not Trainable) vs Custom Embeddings on different tasks
-- How to deal with long text given variable + lengthy song length
-- How do we measure performance for problems were true output is density distribution? What about for multi hard-class assignment (multilabel classification)?
+- What model types (classical ML vs DL) generalize best out of sample for detecting different characteristics (maybe)
+- Performance of Audio vs Language vs Both for DL architecures on different characteristic detection tasks (definitely)
+- How does embedding size impact model performance on different tasks (maybe)
+- Impact of Pre-Trained (Trainable vs not Trainable) vs Custom Embeddings on different tasks (maybe)
+- How to deal with long text given variable + lengthy songs (included in different DL archictectures)
+- How do we measure performance for problems where true output is density distribution? (cross entropy) What about for multi hard-class assignment (multilabel classification)? (multilabel F1)
 - Problem setup for the above (binary relevance method, ...)
-- Treatment for class imbalances (over/under sampling, dynamic point weighting by class proportion)
-- Impact of combining multiple models via a stacked framework for specific tasks
+- Treatment for class imbalances (over/under sampling, dynamic point weighting by class proportion) (definitely)
+- Impact of combining multiple models via a stacked framework for specific tasks (definitely)
 
 Post Model Dev Questions:
-- What words are most important for determining certain characteristics
-- Interesting Structure Identified (Clustering Artists/Songs/Etc)
-- Schemes for making recommendation
-
-
-
-
+- What words are most important for determining certain characteristics (identifying word importance) (definitely)
+- Interesting Structure Identified (Clustering Artists/Songs/Etc) (definitely)
+- Schemes for making recommendation (definitely)
 
 ## Datasets + Descriptions
 [Prediction of Music Genre Dataset](Data\music_genre_audio_features_1.csv) Key contents:
