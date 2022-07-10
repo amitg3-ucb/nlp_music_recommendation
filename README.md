@@ -28,20 +28,20 @@ Post Model Dev Questions:
 - Schemes for making recommendation (definitely)
 
 ## Datasets + Descriptions
-[Prediction of Music Genre Dataset](Data\music_genre_audio_features_1.csv) Key contents:
+[Prediction of Music Genre Dataset](Original_Data/music_genre_audio_features_1.csv) Key contents:
 - 50005 Songs
 - Top Level Metadata (Song Name, Artist Name, Popularity)
 - Audio Features (Captured by Spotify)
 - Genre  
 
-[Music Genre Classification Dataset](Data\music_genre_audio_features_2.csv)  Key contents:
+[Music Genre Classification Dataset](Original_Data/music_genre_audio_features_2.csv)  Key contents:
 - 17996 Songs
 - Top Level Metadata (Song Name, Artist Name, Popularity)
 - Audio Features (Captured by Spotify)
 - Duration
 - Genre  
 
-[Music Dataset 1950-2019](Data\audio_topic_lyrics_genre.csv)  Key contents:
+[Music Dataset 1950-2019](Original_Data/audio_topic_lyrics_genre.csv)  Key contents:
 - 28372 Songs
 - Top Level Metadata (Song Name, Artist Name, Release Data)
 - Subset of Lyrics (Applied Stopword Removal and Lemmatization)
@@ -49,11 +49,11 @@ Post Model Dev Questions:
 - Audio Features (Captured by Spotify)
 - Genre  
 
-[Song Lyrics from 79 Musical Genres Dataset](Data\lyrics_artist_genre)  Key contents:
-- [Artist Dataset](Data\lyrics_artist_genre\artists-data.csv)
+[Song Lyrics from 79 Musical Genres Dataset](Original_Data/lyrics_artist_genre)  Key contents:
+- [Artist Dataset](Original_Data/lyrics_artist_genre/artists-data.csv)
 
     - 4168 Artists w/ Genre Breakdown, Song Quantity at Time of Data Collection, Popularity of Artist
-- [Lyrics Dataset](Data\lyrics_artist_genre\lyrics-data.csv)
+- [Lyrics Dataset](Original_Data/lyrics_artist_genre/lyrics-data.csv)
 
     - 383570 Songs
     - Top Level Metadata (Artist Name, Song Name, Song Language)
@@ -61,7 +61,7 @@ Post Model Dev Questions:
     - Language label
     - Song Lyrics
 
-[Multiple Genre Playlist](Data\multi_genre_playlist)
+[Multiple Genre Playlist](Original_Data/multi_genre_playlist)
 
 - 7 Genres w/ a respective dataset for each
 - Top Level Metadata (Artist Name, Song Name)
