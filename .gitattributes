@@ -16,3 +16,4 @@ Language_Detection/Train_Test_Data/train.csv filter=lfs diff=lfs merge=lfs -text
 Language_Detection/Train_Test_Data/test.csv filter=lfs diff=lfs merge=lfs -text
 Topic_Density_Classification/Train_Test_Data/test.pkl filter=lfs diff=lfs merge=lfs -text
 Topic_Density_Classification/Train_Test_Data/train.pkl filter=lfs diff=lfs merge=lfs -text
+Language_Detection/language_detection_ff_tf.h5 filter=lfs diff=lfs merge=lfs -text
