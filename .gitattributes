@@ -65,3 +65,16 @@ Topic_Density_Classification/Hybrids/embed500_hybrid_topic_density.h5 filter=lfs
 Topic_Density_Classification/Hybrids/word2vec_hybrid_topic_density.h5 filter=lfs diff=lfs merge=lfs -text
 Topic_Density_Classification/Hybrids/embed1000_hybrid_topic_density.h5 filter=lfs diff=lfs merge=lfs -text
 Topic_Density_Classification/WANs/custom1000_embeddings.pkl filter=lfs diff=lfs merge=lfs -text
+Genre_Classification/genre_classification_td_audio_wan300.h5 filter=lfs diff=lfs merge=lfs -text
+Genre_Classification/genre_classification_td_ff.h5 filter=lfs diff=lfs merge=lfs -text
+Genre_Classification/lyric_term_density_scaler.pkl filter=lfs diff=lfs merge=lfs -text
+Genre_Classification/vectorizer.pkl filter=lfs diff=lfs merge=lfs -text
+Genre_Classification/genre_classification_audio_ff.h5 filter=lfs diff=lfs merge=lfs -text
+Genre_Classification/genre_classification_td_audio_dan300.h5 filter=lfs diff=lfs merge=lfs -text
+Genre_Classification/genre_classification_td_audio_ff.h5 filter=lfs diff=lfs merge=lfs -text
+Genre_Classification/audio_scaler.pkl filter=lfs diff=lfs merge=lfs -text
+Genre_Classification/genre_classification_amit.ipynb filter=lfs diff=lfs merge=lfs -text
+Genre_Classification/genre_classification_td_audio_dan100.h5 filter=lfs diff=lfs merge=lfs -text
+Genre_Classification/Genre_Prediction.ipynb filter=lfs diff=lfs merge=lfs -text
+Genre_Classification/Genre_Prediction_v2.ipynb filter=lfs diff=lfs merge=lfs -text
+Genre_Classification/Train_Test_Data filter=lfs diff=lfs merge=lfs -text
