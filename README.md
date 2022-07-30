@@ -17,7 +17,7 @@ Model Dev Questions
 - How does embedding size impact model performance on different tasks (maybe)
 - Impact of Pre-Trained (Trainable vs not Trainable) vs Custom Embeddings on different tasks (maybe)
 - How to deal with long text given variable + lengthy songs (included in different DL archictectures)
-- How do we measure performance for problems where true output is density distribution? (cross entropy) What about for multi hard-class assignment (multilabel classification)? (multilabel F1)
+- How do we measure performance for problems where true output is density distribution? (cross entropy, avg density deviation) What about for multi hard-class assignment (multilabel classification)? (multilabel F1)
 - Problem setup for the above (binary relevance method, ...)
 - Treatment for class imbalances (over/under sampling, dynamic point weighting by class proportion) (definitely)
 - Impact of combining multiple models via a stacked framework for specific tasks (definitely)
